@@ -25,7 +25,7 @@ class Client(TCPClient):
 
 
 if __name__ == '__main__':
-    Client().run('localhost', 5567)
+    Client().run('localhost', 8000)
     print('Connecting to server socket...')
     IOLoop.instance().start()
     print('Socket has been closed.')
